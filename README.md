@@ -7,6 +7,10 @@ Given any non-transparent 3D object, it is impossible to confidently discern the
 
 ## Details:
 
+ResourceFunction["OptimalRotate"][obj]: displays an animation of the 3D object obj in optimal rotation.
+
+ResourceFunction["OptimalRotate"][obj,n]: displays an animation of the 3D object obj in optimal rotation with n points on the rotational path.
+
 ResourceFunction["OptimalRotate"] accepts three-dimensional graphics objects in Graphics3D and MeshRegion.
 
 The more points on the rotational path, the clearer the animation will be for visualizing the shape and features of the object.
